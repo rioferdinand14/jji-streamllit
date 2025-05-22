@@ -5,7 +5,7 @@ import joblib
 
 # Load scaler, daftar kolom kategorikal, dan model
 # (Pastikan di rf_dropout.pkl sudah berisi: scaler, cat_columns, model)
-scaler, cat_columns, model = joblib.load('models/rf_dropout.pkl')
+scaler, cat_columns, model = joblib.load('model.pkl')
 
 st.title("🎓 Prediksi Risiko Dropout Mahasiswa")
 st.write("Masukkan data di bawah ini untuk memprediksi risiko dropout.")
